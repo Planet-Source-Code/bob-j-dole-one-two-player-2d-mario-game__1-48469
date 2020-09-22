@@ -1,0 +1,80 @@
+This Mario game is created by DANIEL LAM!
+Please Read all of the text, it becomes useful
+
+NOW TWO PLAYER!
+AND NOW THERE IS SOUND!
+
+
+To Play:
+You either select one or two player
+
+You must choose a speed: 1 being super fast to 32000 being super slow(but can crash your comp)
+I recommend somewhere between 1 and 70
+My computer I must use 1, but if you use a faster computer I would recommend around 50
+If the level is easy, just increase the speed
+To change the speed, at the beginning, click on the text box and type in a NUMBER!
+OR else 'Run-time error 13' Type mismatch , must be a number! 
+Then click on continue
+If you are tired of waiting to be reborn, the second you die, hit the enter, which will get rid of the flashing screen, then hit the down button to make you go through the cloud.
+Once you win, a screen will show your points and rank!
+
+Arrow keys
+	Left: move mario left
+	Right: move mario right
+	Up: make mario jump
+	Down: go thorugh cloud (only available when cloud is shown)
+
+Space: Shoot Fireballs (max = 6 fireballs in the screen at anyone time)
+
+W: Jump for luigi
+A: move left for luigi
+D: moves luigi to the right
+
+OBJECTIVE: To kill all the turtles without dying, and trying to get the highest possible score
+
+Rules:
+	You start at 2000 points and then they decrease
+	If you points reach 0, you die, but for now, the program just closes
+	If you bump or kill a badguy, you get points
+	If you get a coin, you get points
+	If you die or use a fireball, you lose points!
+	Once the fireball goes of the screen, you get some more
+	If you touch a turtle, you die
+	Unless, you bump the turtle
+	You bump by going under the floor the turtle is and then jump
+	You must time this, if you hit the floor right beneath the turtle, the turtle will turn over and start flailing his legs!
+	DONT BUMP HIM AGAIN, for he will get back on his legs and move again
+	You must not run into him, or touch for him to pernamently die
+	When you die, you start on a cloud and become invincilbe for a couple seconds
+	If you stay on the cloud, if will run out, as well as your points
+	
+
+Notice This!!(REALLY FUN STUFF):
+	maximise the screen and you see all the textboxes, here is the meaning in order
+	1.frames per second(should be around 15-20, if not, your speed is to slow or fast)
+	2.mario's x position
+	3.mario's y position
+	4.mario's x speed (his velocity moving left or right, - velocity means left!)
+	5.mario's y speed(his velocity moving up and donn, (+) means falling, (-) means flying
+
+	
+	Points are at the bottom of the screen
+	Mario comes of a cloud
+	Type in "jet" while playing, now you can fly... sort of
+	
+	
+If mario dies, luigi becomes invincible for a while, i think it works the other way too
+	Only mario can shoot fireballs
+	If someone dies and you push ok to continue, the other character would continue moving left or right, because you only stop when the main screen detects the keyup and keydown controls.
+	The minute you puch a right left up etc. key, the "platform" dissapears.
+
+	Mu ha ha, this glitch has been fixed
+	Glitch:
+		1. Go to the middle high platform
+		2. Jump up until you are at mario highest point
+		3. Shoot a fireball, right or left
+		You will see all these turtles dying, and you can quickly win
+	Reason for glitch:
+		All the turtles are actually "hiding" in the edges
+		But after some time, they start to come out from both ends of the stage
+		So when you throw  fireball, you hit the hiding turtles, which die
